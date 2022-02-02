@@ -1,0 +1,18 @@
+<div class="center">
+    <h3>Squads</h3>
+  <p> Create a squad and add heroes to it</p>
+  <p> Created squads will appear here</p>
+
+    #if ($squads)
+        #foreach ($squad in $squads)
+            <p>Squads:</p>
+                <p>$squad.getmSquadName()</p>
+
+                <button class="btn btn-dark"><a href="/squads/$squad.getmId()">View Squad</a></button>
+         #end
+
+    #else if ($squads == null)
+        <p>There are currently no Squads!</p>
+    #end
+       <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
+</div>

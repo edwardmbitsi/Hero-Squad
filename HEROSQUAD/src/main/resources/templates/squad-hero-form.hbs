@@ -1,0 +1,30 @@
+<div class="center">
+    <div class="card-header">
+        <h2>$squad.getmSquadName()</h2>
+        <h3>Hero</h3>
+    </div>
+    <div class="card-body">
+        <p class="card-text">Add a new hero</p>
+        <form class="card-text" action="/heroes" method="post">
+            <input id="squadId" name="squadId" type="hidden" value="$squad.getmId()">
+
+            <div class="form-group form-inline>
+                <label for="jina">Name: </label>
+                <input type="text" name="jina" id="jina" required>
+            </div>
+            <div class="form-group form-inline>
+                <label for="miaka">Age: </label>
+                <input type="number" min="1" id="miaka" name="miaka" required>
+            </div>
+            <div class=form-group form-inline>
+                <label for="strength">Strength: </label>
+                <input type="text" name="strength" id="strength" required>
+            </div>
+            <div class=form-group form-inline>
+                <label for="weakness">Weakness: </label>
+                <input type="text" name="weakness" id="weakness" required>
+            </div>
+            <button type="submit" class="btn btn-info">Add your Hero</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<div class="jumbotron">
+    <h2>Heroes</h2>
+    <p>Add any hero in mind. Make sure to add strengths and weaknesses. Have fun!</p>
+
+   <h4>Create a squad first</h4>
+   <br>
+   <button class="btn btn-dark"><a href="/squads/new">Add a Squad</a></button>
+   <br>
+
+   #if ($squads)
+        #foreach ($squad in $squads)
+           <p>Squads:</p>
+           <p>$squad.getmSquadName()</p>
+
+           <button><a href="/squads/$squad.getmId()">View Squad</a></button>
+        #end
+   #else
+        <p></p>
+   #end
+
+</div>
