@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body{
+    background-image: url(/images/Afenjas.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+form{
+margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: #480ca8;
+  text-shadow: 1px 1px #1B1725;
+  font-size:20px;
+}
+form-group{
+ margin: auto;
+   width: 50%;
+   padding: 10px;
+   text-align: center;
+   font-family: 'Abel', sans-serif;
+   color: #480ca8;
+   text-shadow: 1px 1px #1B1725;
+   font-size:20px;
+ }
+ about{
+ margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    color: #480ca8;
+    text-shadow: 1px 1px #1B1725;
+    font-size:20px;
+ }
+ p{
+ margin: auto;
+     width: 50%;
+     padding: 10px;
+     text-align: center;
+     font-family: 'Abel', sans-serif;
+      color: #480ca8;
+ }
+
+ h1{
+ margin: auto;
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+ }
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  color: #480ca8;
+  text-shadow: 1px 1px #1B1725;
+  font-size:20px;
+  }
+
+  .buttons{
+   margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }

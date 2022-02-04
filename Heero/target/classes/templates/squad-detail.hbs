@@ -1,0 +1,29 @@
+{{#partial "content"}}
+
+    <link rel='stylesheet' href='/css/style.css'>
+
+        <div class="detail">
+
+        {{#each squad}}
+            <p>Name:{{ name }}</p>
+            <p>Size:{{ size }}</p>
+            <p>Cause:{{ cause }}</p>
+            <p>Id {{id}}</p>
+        <hr>
+            <p>
+
+                {{#if post.published }}
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>  Published
+
+                {{/if}}
+            </p>
+        {{/each}}
+        </div>
+    <div class="buttons">
+        <a href="/squad-form"><button type="submit" class="btn btn-info" style="text-align: center;">Add A Squad</button> </a>
+    </div>
+
+
+{{/partial}}
+
+{{> layout.hbs}}
